@@ -1,17 +1,17 @@
 
 public class SuperDigit {
-	int superDigit(int number) {
+	int superDigit(long number) {
 		if (number < 10) {
-			return number;
+			return (int) number;
 		}
-		int sum = sumOfDigits(number);
+		long sum = sumOfDigits(number);
 		return superDigit(sum);
 	}
 
-	private int sumOfDigits(int number) {
-		int sum = 0;
+	private long sumOfDigits(long number) {
+		long sum = 0;
 		do {
-			int digit = number % 10;
+			long digit = number % 10;
 			sum += digit;
 			number /= 10;
 		} while (number > 0);

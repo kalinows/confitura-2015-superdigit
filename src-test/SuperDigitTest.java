@@ -23,5 +23,6 @@ public class SuperDigitTest {
 		assertEquals(3, s.superDigit(75));
 		assertEquals(6, s.superDigit(9573));
 		assertEquals(2, s.superDigit(98741));
+		assertEquals(1, s.superDigit(1111111111111111111L));
 	}
 }
