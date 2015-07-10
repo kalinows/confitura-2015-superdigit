@@ -23,3 +23,7 @@ You can check contest bye-laws [here](http://tech.viacom.com/warsawsdc/confitura
 Check out our Confitura 2015 site [here](http://tech.viacom.com/warsawsdc/confitura2015/)
 
 We are hiring! Visit our [career site](http://tech.viacom.com/careers/).
+
+### Solution
+The solution is in src/SuperDigit.java - method superDigit(long). There is also a simple recursive
+algorithm in superDigitRecursive(long).
